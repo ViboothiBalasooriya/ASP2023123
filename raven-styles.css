@@ -213,15 +213,16 @@
     font-weight: bold;
 }
 .arrival-grid{
-    margin-left:100px;
+    margin-left:0px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 25px;
     margin-top: 50px;
+    margin-right: 100px;
 
 }
 .one{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,10 +230,17 @@
    border-radius: 30px;
 }
 .two{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
    border-radius: 30px;
+}
+.arrival-grid img{
+    width:80px;
+    height:auto;
+}
+.arrival-text p{
+    font-size:60px;
 }
