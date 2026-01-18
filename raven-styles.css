@@ -179,8 +179,8 @@
 .promo-card button:hover{
     background-color: black;
     color: white;
-    box-shadow: 0 8px 16px rgb(255, 255, 255); /* shadow on hover */
-    transform: translateY(-3px); /* optional: lift the button slightly */
+    box-shadow: 0 2px 2px rgb(255, 255, 255); /* shadow on hover */
+    
 }
 .promo-card img {
     width: 150px;
@@ -238,9 +238,14 @@
    border-radius: 30px;
 }
 .arrival-grid img{
-    width:80px;
-    height:auto;
+    width:400px;
+    height:600px;
 }
 .arrival-text p{
     font-size:60px;
+    align-items: center;
+    justify-content: center;
+}
+.arrival-text span{
+    font-size:20px;
 }
